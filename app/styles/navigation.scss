@@ -1,0 +1,11 @@
+nav{
+   font-family: $fontSofReg;
+   font-size: 16px;
+   color: #4B4B4B;
+   .logo{
+       width: 96px;
+   }
+   .nav-link,.nav-item{
+       margin: 0 20px;
+   }
+}
