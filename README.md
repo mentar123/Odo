@@ -1,9 +1,5 @@
 ﻿# instruction:
-
-## Clone the project:
-
-git clone https://github.com/bbblllaaaccckkk/Landing-test
-
+[Посмотреть готовую сборку](https://mentar123.github.io/Odo-build/)
 ## Upload npm packages:
 
 npm install
