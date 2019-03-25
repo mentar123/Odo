@@ -88,7 +88,7 @@ gulp.task('browser-sync', function(){
 
 gulp.task('watch', function(){
     gulp.watch('app/**/*.html', ['html']);
-    gulp.watch('app/styles/*.scss', ['reload-css']);
+    gulp.watch('app/styles/**/*.scss', ['reload-css']);
     gulp.watch('app/js/*', ['js']);
     // gulp.watch('app/images/**/*', ['images']);
 });
