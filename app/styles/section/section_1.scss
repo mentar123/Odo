@@ -28,3 +28,24 @@
     }
     
 }
+@media (max-width:768px){
+    .section1{
+        .container-fluid{
+           .row{
+               display: flex;
+               justify-content: center;
+                .warpper{
+                margin-left: 0;
+                    h2{
+                    font-size: 76px;
+                    }
+                    .button-wrapper{
+                        .btn-light{
+                            margin-top:40px;
+                        }
+                    }
+                }
+           }
+        }
+    }
+}
