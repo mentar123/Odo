@@ -1,5 +1,4 @@
 .section3{
-    
     .container-fluid{
         margin-top: 180px;
         .text-wrapper{
@@ -58,6 +57,37 @@
                     width: 100%;
                 }
             }
+        }
+        .row{
+            .wrapper-ul{
+                border-bottom: 2px solid #FF7062;
+                border-left: 2px solid #FF7062;
+                border-right: 2px solid #FF7062;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                    .wrapper-ul-text{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        margin: 20px 0;
+                        .bold{
+                            font-size: 18px;
+                            font-family: $fontSofBold;
+                            margin-bottom: 8px;
+                        }
+                        span{
+                            color: #4B4B4B;
+                            font-size: 16px;
+                        }
+                    }
+            }
+        }
+        .shema{
+            height: 100vh;
+            background-image: url("../images/line-bg.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
     }
     
