@@ -1,5 +1,6 @@
 .section1{
-    height: 100vh;
+    .container-fluid{
+        height: 100vh;
     background-image: url("../images/Illustration.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -24,4 +25,6 @@
          margin-top: 40px;
         
     }
+    }
+    
 }
