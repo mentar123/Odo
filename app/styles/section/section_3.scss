@@ -9,7 +9,7 @@
                     font-size: 25px;
                     margin-bottom: 20px;
                 }
-                height: 180px;
+                
                 border: 1px solid #F4F4F4;
                 box-sizing: border-box;
                 border-radius: 8px;
@@ -52,7 +52,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: flex-start;
-                width: 100%;
+                width: 50%;
                 img{
                     width: 100%;
                 }
@@ -84,7 +84,7 @@
             }
         }
         .shema{
-            min-height: 100vh;
+            
             background-image: url("../images/line-bg.svg");
             background-repeat: no-repeat;
             background-position: center;
@@ -132,6 +132,77 @@
             }
             .card-shema{
                 height: auto;
+            }
+        }
+        .wrapper-app-acces{
+            
+            height: 200px;
+            h3{
+                display: inline-block;
+                font-size: 18px;
+                font-family: $fontSofBold;
+                color: #4B4B4B;
+                background-color: white;
+                z-index: 2;
+                position: relative;
+                padding-right: 70px;
+                padding-left: 30px;
+            }
+            .wrapper{
+                height: 80%;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                .hexagon {
+                    margin: 20px 0; 
+                    width: 100px; 
+                    height: 55px;
+                    background: #81E8A1;
+                    position: relative;
+                    }
+                    .hexagon:before, 
+                    .hexagon:after {
+                    content: "";
+                    width: 0; 
+                    height: 0;
+                    position: absolute; 
+                    left: 0;
+                    border-left: 50px solid transparent;
+                    border-right: 50px solid transparent;
+                    }
+                    .hexagon:before {
+                    top: -25px;
+                    border-bottom: 25px solid #81E8A1;
+                    }
+                    .hexagon:after {
+                    bottom: -25px;
+                    border-top: 25px solid #81E8A1;
+                    }
+                    .line{
+                        position: absolute;
+                        top: -105px;
+                        left: 48px;
+                        z-index: 0;
+                    }
+                    .line-saas{
+                        top:-95px;
+                    }
+                    .line-on-prem{
+                        top:-60px;
+                    }
+                    .laas,.saas,.on-prem{
+                        position: absolute;
+                        top: 90px;
+                        font-size: 18px;
+                        font-family: $fontSofBold;
+                        color: #4B4B4B;
+                    }
+                    .on-prem{
+                        left: 20px;
+                    }
+                    .laas,.saas{
+                        left: 30px;
+                    }
             }
         }
     }
