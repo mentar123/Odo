@@ -154,6 +154,9 @@
                 justify-content: space-around;
                 align-items: flex-end;
                 .hexagon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     margin: 20px 0; 
                     width: 100px; 
                     height: 55px;
@@ -178,10 +181,26 @@
                     bottom: -25px;
                     border-top: 25px solid #81E8A1;
                     }
+                    .wrapper{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .wrapper-logo{
+                       
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: white;
+                        height: 60px;
+                        width: 60px;
+                        border-radius: 50%;
+                        z-index: 2;
+                    }
                     .line{
                         position: absolute;
                         top: -105px;
-                        left: 48px;
+                        left: 49px;
                         z-index: 0;
                     }
                     .line-saas{
