@@ -84,13 +84,13 @@
             }
         }
         .shema{
-            height: 100vh;
+            min-height: 100vh;
             background-image: url("../images/line-bg.svg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
             .odo-access{
-                border-radius: 25px;
+                border-radius: 15px;
                 border: 2px dotted rgba(75, 75, 75, 0.315);
                 display: flex;
                 flex-direction: column;
@@ -103,10 +103,32 @@
                 }
             }
             .odo{
-                min-height: 150px;
+                
                 background: url("../images/odo-acces.svg");
                 background-repeat: no-repeat;
                 background-size: contain;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                min-height: 180px;
+                color: white;
+                .wrapper-odo-img{
+                    background: white;
+                    border-radius: 50%;
+                    height: 35px;
+                    width: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 20px; 
+                    margin-right: 10px;
+                }
+                h2{
+                    font-size: 27px;
+                }
+                h3{
+                    font-size: 22px;
+                }
             }
             .card-shema{
                 height: auto;
